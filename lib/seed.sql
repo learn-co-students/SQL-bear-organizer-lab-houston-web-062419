@@ -7,3 +7,14 @@ INSERT INTO bears (id, name, age, gender, color, temperament, alive) VALUES
 (6,"Grinch", 2, "M", "Black", "Grinchy", 1),
 (7,"Wendy", 6, "F", "Blue", "naive", 1),
 (8,null, 20, "M", "black", "aggressive", 0);
+
+/*
+SELECT name, age FROM bears WHERE gender = "F";
+SELECT name FROM bears ASC;
+SELECT name, age FROM bears WHERE alive = 1 ASC;
+SELECT name, age FROM bears ORDER BY age DESC LIMIT = 1;
+SELECT name, age FROM bears ORDER BY age ASC LIMIT = 1;
+SELECT color, COUNT(color) FROM bears DESC LIMIT = 1;
+SELECT COUNT(goofy) FROM bears WHERE temperament = "goofy";
+SELECT * FROM bears WHERE temperament = "aggressive";
+*/
